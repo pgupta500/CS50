@@ -1,2 +1,2 @@
 # CS50
-Homework in David malan's CS50
+Homework from David Malan's CS50
