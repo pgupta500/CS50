@@ -1,4 +1,3 @@
-// recover.c
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
@@ -16,7 +15,7 @@ int main(void)
     uint8_t buffer[512];
     FILE *outptr = NULL;
     int filecount = 0;
-    char filename[8]; // "###.jpg\0"
+    char filename[8]; 
     size_t bytesRead;
 
     while ((bytesRead = fread(buffer, 1, sizeof(buffer), inptr)) > 0)
